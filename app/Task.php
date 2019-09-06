@@ -15,7 +15,7 @@ class Task extends Model
 
     public function incomplete($completed = false)
     {
-        $this->complete(false)
+        $this->complete(false);
     }
 
     public function project()
